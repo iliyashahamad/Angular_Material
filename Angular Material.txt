@@ -1,0 +1,32 @@
+Installing angular material
+======================================================
+ng add @angular/material
+npm install ngx-toastr --save
+npm config set legacy-peer-deps true
+npm install json-server
+json-server --watch db.json
+===================================================
+Installing Angular Setup
+===============================================================
+1.Node js Install
+2.vs code install
+3.npm install -g @angular/cli
+4.For Type Script Install
+npm install -g typescript
+
+POLICY ERROR CMD
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+===========================================================================================
+Creating Angular Project Process--------------------------
+======================================================
+1. ng new employee-dashboard --skip-tests  (cd employee-dashboard)
+2. npm install json-server
+3. json-server --watch employee.json  
+4. { "employee":[ ] }    Note: - Manually create in Project (employee.json  )
+5. ng g class employee  (class)
+6. ng g s employee (service)
+7. ng g c components/dashboard (Components)
+8. ng g c components/insert
+9. ng g c components/edit
+10. tsconfig.json (me add "strictPropertyInitialization": false,) isse fayda value asign optional hoga mandatory nahi
+11. 
